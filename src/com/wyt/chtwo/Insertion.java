@@ -13,10 +13,15 @@ public class Insertion extends SortTemplate {
 	public void sort(Comparable[] a){
 		int N = a.length;
 		for(int i = 1;i < N;i++){
-			for(int j = i;j > 0 &&less(a[j],a[j-1]);j-- ){
+			for(int j = i;j > 0;j-- ){
+				if(less(a[j],a[j-1])){
+					exch(a, j, j-1);
+				}
+				else{
+					continue;
+				}
+				
 			}
-//			show(a, 10);
-			System.out.println();
 		}
 	}
 	
