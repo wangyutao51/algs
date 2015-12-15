@@ -49,7 +49,7 @@ public class SortTemplate {
 					System.out.println();
 				}else{
 					if(i != (a.length-1)){
-						System.out.print("-");
+						System.out.print(" ");
 					}
 				}
 				
