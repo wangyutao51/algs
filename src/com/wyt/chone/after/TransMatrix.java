@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.wyt.chone;
+package com.wyt.chone.after;
 
 import javax.sound.midi.Synthesizer;
 
